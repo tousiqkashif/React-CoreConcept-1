@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.row{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+    ul{
+width: 250px;
+height: 350px;
+background-color: rgb(41, 40, 38);
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0.1px 0.1px 5px rgb(169, 147, 240);
+border-radius: 5px;
+border: none;
+@media screen and (max-width:800px) {
+    width: 100%;
+    
+}
+
+    }
+     img{
+        width: 150px;
+        height: 150px;
+    }
+.ptag{
+    text-align: center;
+}

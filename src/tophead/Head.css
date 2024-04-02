@@ -1,0 +1,31 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.hdg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    > img{
+        width: 100px;
+        height: 100px;
+    
+    }
+    >h1{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 60px;
+        color: blue;
+        text-shadow: 1px 1px 5px rgb(8, 6, 6);
+    }
+    >p{
+        text-align: center;
+    }
+   
+}
